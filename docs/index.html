@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ZhaoCake Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- 设置网页icon -->
+  <link rel="icon" href="_media/fanvico.ico" type="image/x-icon">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <!-- CDN files for docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+</head>
+<body>
+  <div id="app"></div>
+  <!-- 设置一个33到300的随机数用于theme-hue -->
+  <script>
+    var random = Math.floor(Math.random() * (300 - 33 + 1) + 33);
+    document.documentElement.style.setProperty('--theme-hue', random);
+  </script>
+  <style>
+    :root {
+      /* Reduce the font size */
+      --base-font-size: 20px;
+  
+      /* Change the theme color hue */
+      --theme-hue: random;
+  
+      /* Change the sidebar bullets */
+      --sidebar-nav-link-before-content: '🚩';
+    }
+    
+    body {
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      background-image: url(https://iw233.cn/api.php?sort=pc);
+      /* 限制图片的分辨率 */
+      background-size: 20% 20%;
+      /* 固定background-image的位置 */
+      background-attachment: fixed;
+      /* background-image的尺寸 */
+      background-size: cover;
+      /* background-image的重复方式 */
+      background-repeat: no-repeat;
+      /* background-image的水平垂直位置 */
+      background-position: center center;
+      /* filter:brightness(0.8); */ 
+      position: absolute;
+      opacity: 0.3;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+    }
+  </style>
+  <script>
+    window.$docsify = {
+      name: 'Blog of ZhaoCake',
+      repo: 'https://github.com/ZhaoCake/zhaocake.github.io',
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 2,
+      coverpage: true,
+      count:{
+      countable:true,
+      fontsize:'1.0em',
+      color:'rgb(123,123,123)',
+      language:'chinese'
+      },
+      themeable: {
+          readyTransition : true, // default
+          responsiveTables: true  // default
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <!-- mouse click -->
+  <script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
+  <!-- 加载bronya文件夹下的live2d -->
+  <!-- 加载不来 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '52b39acbec7ca69d7071',
+      clientSecret: 'e17de2c2129ba5ccdd76e7795d7fadb246ab0c00',
+      repo: 'zhaocake.github.io',
+      owner: 'ZhaoCake',
+      admin: ['ZhaoCake'],
+      createIssueManually: true,
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
