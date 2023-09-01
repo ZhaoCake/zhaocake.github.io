@@ -8,8 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- 设置网页icon -->
   <link rel="icon" href="_media/fanvico.ico" type="image/x-icon">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.css"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
   <!-- CDN files for docsify-katex -->
@@ -23,6 +21,19 @@
   <script>
     var random = Math.floor(Math.random() * (300 - 33 + 1) + 33);
     document.documentElement.style.setProperty('--theme-hue', random);
+    // 获取"./_media/backimage/"文件夹下的随机图片的url用于填充背景
+    // var backimage = new Array();
+    // backimage[0] = "./_media/backimage/0.jpg";
+    // backimage[1] = "./_media/backimage/1.jpg";
+    // backimage[2] = "./_media/backimage/2.jpg";
+    // backimage[3] = "./_media/backimage/3.jpg";
+    // backimage[4] = "./_media/backimage/4.jpg";
+    // backimage[5] = "./_media/backimage/5.jpg";
+    // backimage[6] = "./_media/backimage/6.jpg";
+    // backimage[7] = "./_media/backimage/7.jpg";
+    // var background = document.getElementById("background");
+    // background.style.backgroundImage = "url(" +"./_media/backimage/3.jpg"+ ")";
+    // background.style.opacity = "0.3";
   </script>
   <style>
     :root {
@@ -41,10 +52,10 @@
     }
 
     body::before {
-      content: "";
-      background-image: url(https://iw233.cn/api.php?sort=pc);
+      content: '';
+      background-image: url(./_media/backimage/6.jpg);
       /* 限制图片的分辨率 */
-      background-size: 20% 20%;
+      background-size: 100% 100%;
       /* 固定background-image的位置 */
       background-attachment: fixed;
       /* background-image的尺寸 */
@@ -53,14 +64,12 @@
       background-repeat: no-repeat;
       /* background-image的水平垂直位置 */
       background-position: center center;
-      /* filter:brightness(0.8); */ 
       position: absolute;
       opacity: 0.3;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-
     }
   </style>
   <script>

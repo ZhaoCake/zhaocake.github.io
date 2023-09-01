@@ -19,6 +19,6 @@
 [GitHub](https://github.com/ZhaoCake)
 [CSDN](https://blog.csdn.net/raw_inputhello)
 
-<img src="https://iw233.cn/api.php?sort=pc" width="60%">
+<!-- <img src="https://iw233.cn/api.php?sort=pc" width="60%"> -->
 
 <!-- ![](https://iw233.cn/api.php?sort=pc) -->
