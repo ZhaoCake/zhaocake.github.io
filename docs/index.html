@@ -10,10 +10,18 @@
   <link rel="icon" href="_media/fanvico.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-  <!-- CDN files for docsify-katex -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+  <script defer src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>
+  <script>
+    var katex_config = {
+      delimiters: 
+      [
+        {left: "$$", right: "$$", display: true},
+          {left: "$", right: "$", display: false}
+      ]
+    };
+    </script>
+    <script defer src="https://cdn.bootcss.com/KaTeX/0.11.1/contrib/auto-render.min.js" onload="renderMathInElement(document.body,katex_config)"></script>    
 </head>
 <body>
   <div id="app"></div>
@@ -108,8 +116,9 @@
       repo: 'zhaocake.github.io',
       owner: 'ZhaoCake',
       admin: ['ZhaoCake'],
-      createIssueManually: true,
+      // createIssueManually: true,
       // facebook-like distraction free mode
+      id: md5(location.pathname),
       distractionFreeMode: false
     })
   </script>
