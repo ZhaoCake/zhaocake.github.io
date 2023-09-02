@@ -1,4 +1,4 @@
-<!-- docs/start_with_disk/_sidebar.md -->
+<!-- docs/analog_ET/_sidebar.md -->
 
 * 电子技术基础-模拟部分
     * 1 绪论
