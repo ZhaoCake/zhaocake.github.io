@@ -10,7 +10,19 @@
   <link rel="icon" href="_media/fanvico.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-  <link rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">    
+  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" /> -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/marked@4"></script> -->
+  <!-- CDN files for docsify-katex -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->  
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- LaTeX display engine -->
+  <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <!--  docsify-latex plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -32,17 +44,6 @@
     // background.style.backgroundImage = "url(" +"./_media/backimage/3.jpg"+ ")";
     // background.style.opacity = "0.3";
   </script>
-  <script defer src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>
-  <script>
-    var katex_config = {
-      delimiters: 
-      [
-        {left: "$$", right: "$$", display: true},
-          {left: "$", right: "$", display: false}
-      ]
-    };
-  </script>
-  <script defer src="https://cdn.bootcss.com/KaTeX/0.11.1/contrib/auto-render.min.js" onload="renderMathInElement(document.body,katex_config)"></script>
   <style>
     :root {
       /* Reduce the font size */
@@ -97,6 +98,10 @@
       themeable: {
           readyTransition : true, // default
           responsiveTables: true  // default
+      },
+      latex: {
+      inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
+      displayMath  : [['$$', '$$']],               // default
       }
     }
   </script>
@@ -107,6 +112,13 @@
   <script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
   <!-- 加载bronya文件夹下的live2d -->
   <!-- 加载不来 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked@3"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
