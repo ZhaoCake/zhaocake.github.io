@@ -9,7 +9,7 @@
   <!-- 设置网页icon -->
   <link rel="icon" href="_media/fanvico.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> -->
   <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
 
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" /> -->
@@ -119,6 +119,8 @@
 
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 
+    <!-- gitalk for comments -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
@@ -128,11 +130,17 @@
       repo: 'zhaocake.github.io',
       owner: 'ZhaoCake',
       admin: ['ZhaoCake'],
-      // createIssueManually: true,
+      title: location.hash.match(/#(.*?)([?]|$)/)[1], // 这个是设置 issue 对应的标题
+      id: location.hash.match(/#(.*?)([?]|$)/)[1],
       // facebook-like distraction free mode
-      id: md5(location.pathname),
       distractionFreeMode: false
     })
+    // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
+    window.onhashchange = function(event){
+        if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+          location.reload()
+        }
+    }
   </script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
