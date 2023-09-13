@@ -7,4 +7,3 @@
         * [1.3 模拟信号和数字信号](analog_ET/introduction/mo_and_shu_3.md)
         * [1.4 放大电路模型](analog_ET/introduction/bigger_4.md)
         * [1.5 放大电路的主要性能指标](analog_ET/introduction/xingneng_5.md)
-    
