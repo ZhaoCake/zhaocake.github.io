@@ -2,13 +2,14 @@
 
 ![logo](_media/Asuka.jpg)
 
-# **🍰ZhaoCake🍰的笔记** <small>**1.0**</small>
+# **🍰ZhaoCake🍰的笔记** <small>**1.1**</small>
 
-> **ZhaoCake赞同开发者应该养成写博客或笔记的习惯**
+> **ZhaoCake赞同开发者应该养成写博客或笔记的习惯，版本号看心情**
 
 - 😀习惯于使用python
 - 😉目前在逐渐熟悉CPP
 - 😊并且目前是一名测控系的学生
+- 😊最近在整嵌入式和硬件，冲冲冲！
 
 ![Static Badge](https://img.shields.io/badge/ZhaoCake-_?style=plastic&logo=github&logoColor=blue&labelColor=green&color=blue)
 ![Static Badge](https://img.shields.io/badge/Python-_?logo=python&labelColor=gray&color=blue)
