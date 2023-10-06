@@ -9,6 +9,7 @@
     * [电路原理](circuit/README.md)
     * [模拟电路读书笔记](analog_ET/README.md)
     * [速通系列](quickpass/README.md)
+    * [习题课系列](excs/README.md)
     
 
 * 仓库
