@@ -5,7 +5,15 @@ repo_name: ZhaoCake/zhaocake.github.io
 
 plugins:
   - search
-  - blog
+  - blog:
+      blog_dir: ./blog
+      blog_toc: true
+      post_date_format: full
+      archive_toc: true
+      categories_toc: true
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      pagination_keep_content: true
+      draft_if_future_date: true
 
 markdown_extensions:
   - admonition
@@ -18,10 +26,10 @@ markdown_extensions:
       generic: true
   - pymdownx.emoji
 
-#nav:
-#  - Home: index.md
-#- Blog:
-#    - blog/index.md
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
 
 theme:
   icon:
