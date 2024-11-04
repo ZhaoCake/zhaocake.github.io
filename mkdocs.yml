@@ -18,6 +18,11 @@ markdown_extensions:
       generic: true
   - pymdownx.emoji
 
+#nav:
+#  - Home: index.md
+#- Blog:
+#    - blog/index.md
+
 theme:
   icon:
     admonition:
@@ -92,8 +97,5 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
-    
+
 copyright: Copyright &copy; 2024 Cake Zhao
-
-  
-
