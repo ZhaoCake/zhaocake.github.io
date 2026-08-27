@@ -16,8 +16,8 @@ export const siteConfig: SiteConfig = {
 		fixed: false,
 	},
 	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png",
+		enable: true,
+		src: "assets/images/banner.jpg",
 		position: "center",
 		credit: {
 			enable: false,
@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		{
-			src: "/assert/zhao.png",
+			src: "/assert/asuka.png",
 		},
 	],
 };
@@ -50,7 +50,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/assert/zhao.png",
+	avatar: "/assert/asuka.png",
 	name: "ZhaoCake",
 	bio: "Ciallo～(∠・ω< )⌒☆ 记录学习笔记与生活感悟",
 	links: [
