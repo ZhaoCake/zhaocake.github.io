@@ -1,126 +1,99 @@
-# ZhaoCake 博客文档指南 （by claude-3.7-sonnet）
+# 🍥Fuwari  
+![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
+![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue) 
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-saicaca%2Ffuwari-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/saicaca/fuwari)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_shield&issueType=license)
 
-这个仓库包含我基于 MkDocs 构建的个人博客。本 README 作为维持博客文章一致性的参考指南。
+A static blog template built with [Astro](https://astro.build).
 
-## 博客文章结构
+[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)
 
-### 必需的前置信息
+![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
 
-每篇博客文章应以包含以下字段的 YAML 前置信息开始：
+🌏 README in
+[**中文**](https://github.com/saicaca/fuwari/blob/main/docs/README.zh-CN.md) /
+[**日本語**](https://github.com/saicaca/fuwari/blob/main/docs/README.ja.md) /
+[**한국어**](https://github.com/saicaca/fuwari/blob/main/docs/README.ko.md) /
+[**Español**](https://github.com/saicaca/fuwari/blob/main/docs/README.es.md) /
+[**ไทย**](https://github.com/saicaca/fuwari/blob/main/docs/README.th.md) /
+[**Tiếng Việt**](https://github.com/saicaca/fuwari/blob/main/docs/README.vi.md) /
+[**Bahasa Indonesia**](https://github.com/saicaca/fuwari/blob/main/docs/README.id.md) (Provided by the community and may not always be up-to-date)
+
+## ✨ Features
+
+- [x] Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
+- [x] Smooth animations and page transitions
+- [x] Light / dark mode
+- [x] Customizable theme colors & banner
+- [x] Responsive design
+- [x] Search functionality with [Pagefind](https://pagefind.app/)
+- [x] [Markdown extended features](https://github.com/saicaca/fuwari?tab=readme-ov-file#-markdown-extended-syntax)
+- [x] Table of contents
+- [x] RSS feed
+
+## 🚀 Getting Started
+
+1. Create your blog repository:
+    - [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
+    - Or run one of the following commands:
+       ```sh
+       npm create fuwari@latest
+       yarn create fuwari
+       pnpm create fuwari@latest
+       bun create fuwari@latest
+       deno run -A npm:create-fuwari@latest
+       ```
+2. To edit your blog locally, clone your repository, run `pnpm install` to install dependencies.
+    - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
+3. Edit the config file `src/config.ts` to customize your blog.
+4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
+5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
+
+## 📝 Frontmatter of Posts
 
 ```yaml
 ---
-draft: false           # 是否为草稿（true/false）
-date: YYYY-MM-DD       # 发布日期，格式为 YYYY-MM-DD
-authors:
-  - ZhaoCake           # 作者名称
-categories:
-  - 分类名称            # 一个或多个文章分类
----
-```
-
-<!-- ### 可选的前置信息
-
-你还可以包含这些可选字段：
-
-```yaml
----
-tags:
-  - 标签1
-  - 标签2
----
-``` -->
-
-### 文章结构
-
-1. **标题**：以一级标题（`#`）开始文章标题
-2. **简介**：简短介绍文章主题
-3. **摘要标记**：在简介后添加 `<!-- more -->` 以创建文章列表中的摘要
-4. **主要内容**：使用二级及以上标题（`##`，`###` 等）组织内容
-5. **结论/结尾**：可选的总结或结束语
-
-## 示例模板
-
-```markdown
----
+title: My First Blog Post
+published: 2023-09-09
+description: This is the first post of my new Astro blog.
+image: ./cover.jpg
+tags: [Foo, Bar]
+category: Front-end
 draft: false
-date: YYYY-MM-DD
-authors:
-  - ZhaoCake
-categories:
-  - 分类名称
+lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
 ---
-
-# 文章标题
-
-简短介绍文章内容的段落。
-
-<!-- more -->
-
-## 章节标题
-
-主要内容在这里...
-
-### 子章节
-
-更多内容...
-
-## 结论
-
-总结想法...
 ```
 
-## 内容分类
+## 🧩 Markdown Extended Syntax
 
-根据现有的文章，常用的分类有：
+In addition to Astro's default support for [GitHub Flavored Markdown](https://github.github.com/gfm/), several extra Markdown features are included:
 
-1. **资源安利** - 资源推荐和工具
-2. **环境管理** - 环境配置和设置
-3. **编程工具** - 编程工具和实用程序
-4. **心得体会** - 经验和感悟
-5. **读书笔记** - 阅读笔记
-6. **项目分享** - 项目分享
-7. **计算机原理** - 计算机科学原理
+- Admonitions ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#admonitions))
+- GitHub repository cards ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#github-repository-cards))
+- Enhanced code blocks with Expressive Code ([Preview](https://fuwari.vercel.app/posts/expressive-code/) / [Docs](https://expressive-code.com/))
 
-## 特殊元素
+## ⚡ Commands
 
-### 提示和告示
+All commands are run from the root of the project, from a terminal:
 
-```markdown
-!!! note "标题"
-    提示内容
-```
+| Command                    | Action                                              |
+|:---------------------------|:----------------------------------------------------|
+| `pnpm install`             | Installs dependencies                               |
+| `pnpm dev`                 | Starts local dev server at `localhost:4321`         |
+| `pnpm build`               | Build your production site to `./dist/`             |
+| `pnpm preview`             | Preview your build locally, before deploying        |
+| `pnpm check`               | Run checks for errors in your code                  |
+| `pnpm format`              | Format your code using Biome                        |
+| `pnpm new-post <filename>` | Create a new post                                   |
+| `pnpm astro ...`           | Run CLI commands like `astro add`, `astro check`    |
+| `pnpm astro --help`        | Get help using the Astro CLI                        |
 
-### 代码块
+## ✏️ Contributing
 
-```markdown
-```bash
-# 你的代码
-```
-```
+Check out the [Contributing Guide](https://github.com/saicaca/fuwari/blob/main/CONTRIBUTING.md) for details on how to contribute to this project.
 
-### 图片
+## 📄 License
 
-```markdown
-![替代文本](../../assert/图片文件名.png)
-```
+This project is licensed under the MIT License.
 
-## 文件命名约定
-
-文件通常使用日期格式命名：
-- 主要文章：`YYYY-MM-DD.md`
-- 同一天的多篇文章：`YYYY-MM-DD-N.md`（其中 N 是数字）
-
-## 目录结构
-
-- 博客文章位于：`docs/blog/posts/`
-- 图片和其他资源存储于：`docs/assert/`
-
-## 常见文章主题
-
-你的博客包含关于以下内容的文章：
-1. 环境配置和管理
-2. 编程工具和资源
-3. 项目经验和分享
-4. 读书笔记和感悟
-5. 技术教程和详细示例
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_large&issueType=license)
