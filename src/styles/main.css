@@ -150,3 +150,23 @@
     }
   }
 }
+
+/* === 全屏背景 + 毛玻璃卡片 === */
+body {
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+:root {
+    --page-bg: rgba(245, 245, 245, 0.55) !important;
+    --card-bg: rgba(255, 255, 255, 0.72) !important;
+}
+.dark {
+    --page-bg: rgba(18, 18, 18, 0.55) !important;
+    --card-bg: rgba(30, 30, 30, 0.72) !important;
+}
+.card-base {
+    backdrop-filter: blur(10px) saturate(1.2);
+    -webkit-backdrop-filter: blur(10px) saturate(1.2);
+}
