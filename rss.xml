@@ -783,6 +783,13 @@ file.read(reinterpret_cast&amp;lt;char*&amp;gt;(&amp;amp;conv1), sizeof(ConvWeig
 &lt;h2&gt;MLIR基本工程模板&lt;/h2&gt;
 &lt;p&gt;这个项目量还挺大的，不过之前的riscv-gnu-toolchain的编译也是这样,一个文件夹就20G了。
 姑且等着，做点别的事情。&lt;/p&gt;
+</content:encoded></item><item><title>力有不逮，前路未尽</title><link>https://zhaocake.github.io/posts/2024-11-11-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2024-11-11-2/</guid><description>我目前的水平也仅仅到此为止了。离自己设想中的成品还有很远的距离，扎实的工程基础才是真正需要的吧。</description><pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我目前的水平也仅仅到此为止了。离自己设想中的成品还有很远的距离，扎实的工程基础才是真正需要的吧。&lt;/p&gt;
+&lt;p&gt;几个月以来，虽然没有显著的能力上的进步，工作多体现在对现有开源项目的使用上；但是这半学期我是实打实地读了很多书，多到我自己都比较吃惊，与大一大二相比我现在感到无比充实且自在，尽管由于产品能力不足难以完成原定的目标，但若是因此失落沮丧，怎么能继续积累最终发挥出脑中的想法呢？
+还是继续前进吧，尽管此刻已成定局。
+但前方的道路依然漫长迷人。&lt;/p&gt;
+&lt;p&gt;总结这学期的开始，首先结束RM是对的，若是继续打RM，我不可能有时间提升自己的广度与深度，去年打了一年已经让我停滞不前了；其次竞赛之外实践的时间太少了，校内课程的时间太多了，很可惜，我回想起来，在时间分配上没有明显的失误，那么以我目前的眼光来看这应该是无可奈何之事。&lt;/p&gt;
+&lt;p&gt;到了期中，这一周应该是最麻烦的一周了，两项竞赛都挨在一起。或许不该答应陈老师继续打工创赛的，我不需要；但是工创赛每届都需要新老交替，我不去几乎是断了这样的传承，因此我去了；虽然现在真的挺难顶，但是再来一次还是会的，我认为这就是一种自信，我已经很少正儿八经地后悔了，给予过去的自己、现在的自己、未来的自己以充足的信任。&lt;/p&gt;
+&lt;p&gt;那么就是这样。既然过去没有显著错误、现在没有显著错误、未来也不期望有显著错误，这样的反思也就可以结束。&lt;/p&gt;
 </content:encoded></item><item><title>启读毛德操《香山源代码剖析》</title><link>https://zhaocake.github.io/posts/2024-11-11/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2024-11-11/</guid><description>还是买了一套，虽然按道理以我的水平应该先通过别的书打好基础的。不过京东224、pdd131的情况下我还是买了一套。是正版，是pdd新华书店官方旗舰店的，书的质量很好无异味，确实是正版。</description><pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;还是买了一套，虽然按道理以我的水平应该先通过别的书打好基础的。不过京东224、pdd131的情况下我还是买了一套。是正版，是pdd新华书店官方旗舰店的，书的质量很好无异味，确实是正版。&lt;/p&gt;
 &lt;h2&gt;初见&lt;/h2&gt;
 &lt;p&gt;这套书真是太后了，怪不得分三卷。但我甚至希望能够分六卷，因为这样的单卷大小想要带到教室里面去看是过于沉重了。&lt;/p&gt;
@@ -797,13 +804,6 @@ file.read(reinterpret_cast&amp;lt;char*&amp;gt;(&amp;amp;conv1), sizeof(ConvWeig
 &lt;p&gt;同上段末所述，评价不知道的东西是不适合的。&lt;/p&gt;
 &lt;h2&gt;阅读期待&lt;/h2&gt;
 &lt;p&gt;读书，尤其是这样厚的一本书，需要有目的，否则就轻易在书中迷失了。并且我不应该因为自己的知识微薄而拖慢阅读的进度，应该是我的知识去追赶阅读的进度&lt;/p&gt;
-</content:encoded></item><item><title>力有不逮，前路未尽</title><link>https://zhaocake.github.io/posts/2024-11-11-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2024-11-11-2/</guid><description>我目前的水平也仅仅到此为止了。离自己设想中的成品还有很远的距离，扎实的工程基础才是真正需要的吧。</description><pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我目前的水平也仅仅到此为止了。离自己设想中的成品还有很远的距离，扎实的工程基础才是真正需要的吧。&lt;/p&gt;
-&lt;p&gt;几个月以来，虽然没有显著的能力上的进步，工作多体现在对现有开源项目的使用上；但是这半学期我是实打实地读了很多书，多到我自己都比较吃惊，与大一大二相比我现在感到无比充实且自在，尽管由于产品能力不足难以完成原定的目标，但若是因此失落沮丧，怎么能继续积累最终发挥出脑中的想法呢？
-还是继续前进吧，尽管此刻已成定局。
-但前方的道路依然漫长迷人。&lt;/p&gt;
-&lt;p&gt;总结这学期的开始，首先结束RM是对的，若是继续打RM，我不可能有时间提升自己的广度与深度，去年打了一年已经让我停滞不前了；其次竞赛之外实践的时间太少了，校内课程的时间太多了，很可惜，我回想起来，在时间分配上没有明显的失误，那么以我目前的眼光来看这应该是无可奈何之事。&lt;/p&gt;
-&lt;p&gt;到了期中，这一周应该是最麻烦的一周了，两项竞赛都挨在一起。或许不该答应陈老师继续打工创赛的，我不需要；但是工创赛每届都需要新老交替，我不去几乎是断了这样的传承，因此我去了；虽然现在真的挺难顶，但是再来一次还是会的，我认为这就是一种自信，我已经很少正儿八经地后悔了，给予过去的自己、现在的自己、未来的自己以充足的信任。&lt;/p&gt;
-&lt;p&gt;那么就是这样。既然过去没有显著错误、现在没有显著错误、未来也不期望有显著错误，这样的反思也就可以结束。&lt;/p&gt;
 </content:encoded></item><item><title>微机原理课程讨论存档</title><link>https://zhaocake.github.io/posts/2024-11-4/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2024-11-4/</guid><description>模块化的子程序模块的调用流程</description><pubDate>Mon, 04 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;模块化的子程序模块的调用流程&lt;/h3&gt;
 &lt;p&gt;模块化编程通过将代码分解成独立的功能单元（子程序或函数）实现。这种方法提高了代码的可读性、可维护性以及重用性。&lt;/p&gt;
 &lt;h4&gt;参数传递方式总结&lt;/h4&gt;

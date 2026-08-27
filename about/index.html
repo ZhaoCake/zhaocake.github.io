@@ -216,22 +216,22 @@ if (document.readyState === 'loading') {
         before:absolute before:left-[-16px] before:top-[5.5px]" data-astro-cid-ucso7hve style="--collapsedHeight: 7.5rem;">标签</div> <div id="tags" class="collapse-wrapper px-4 overflow-hidden" data-astro-cid-ucso7hve style="--collapsedHeight: 7.5rem;">  <div class="flex gap-2 flex-wrap"> <a href="/archive/?tag=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" aria-label="View all posts with the 计算机科学 tag" class="btn-regular h-8 text-sm px-3 rounded-lg">  计算机科学 </a><a href="/archive/?tag=%E8%AE%A4%E8%AF%86%E4%B8%8E%E5%AE%9E%E8%B7%B5" aria-label="View all posts with the 认识与实践 tag" class="btn-regular h-8 text-sm px-3 rounded-lg">  认识与实践 </a> </div>  </div>  </widget-layout>   </div> </div> <main id="swup-container" class="transition-swup-fade col-span-2 lg:col-span-1 overflow-hidden"> <div id="content-wrapper" class="onload-animation"> <!-- the overflow-hidden here prevent long text break the layout--> <!-- make id different from windows.swup global property -->  <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32"> <div class="card-base z-10 px-9 py-6 relative w-full "> <div data-pagefind-body class="prose dark:prose-invert prose-base !max-w-none custom-md mt-2"> <!--<div class="prose dark:prose-invert max-w-none custom-md">--> <!--<div class="max-w-none custom-md">-->  <section><h1 id="关于我">关于我<a class="anchor" href="#关于我"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h1><p>ZhaoCake 的博客，启用于 2024 年 11 月，主要记录学习笔记与生活感悟。</p><blockquote>
 <p>本博客启用于2024年11月4日，并转移了本人前两年在CSDN上的部分博客，不过也没移动几篇，移过来太麻烦，大部分回头来看也没什么价值。就CSDN目前的状态而言，本人在CSDN上有近4000粉丝都快成污点了。</p>
 <p>—— 摘自旧站首页</p>
-</blockquote><a id="GC21b668-card" class="card-github fetch-waiting no-styling" href="https://github.com/ZhaoCake/zhaocake.github.io" target="_blank" repo="ZhaoCake/zhaocake.github.io"><div class="gc-titlebar"><div class="gc-titlebar-left"><div class="gc-owner"><div id="GC21b668-avatar" class="gc-avatar"></div><div class="gc-user">ZhaoCake</div></div><div class="gc-divider">/</div><div class="gc-repo">zhaocake.github.io</div></div><div class="github-logo"></div></div><div id="GC21b668-description" class="gc-description">Waiting for api.github.com...</div><div class="gc-infobar"><div id="GC21b668-stars" class="gc-stars">00K</div><div id="GC21b668-forks" class="gc-forks">0K</div><div id="GC21b668-license" class="gc-license">0K</div><span id="GC21b668-language" class="gc-language">Waiting...</span></div><script id="GC21b668-script" type="text/javascript" defer>
+</blockquote><a id="GCmvudel-card" class="card-github fetch-waiting no-styling" href="https://github.com/ZhaoCake/zhaocake.github.io" target="_blank" repo="ZhaoCake/zhaocake.github.io"><div class="gc-titlebar"><div class="gc-titlebar-left"><div class="gc-owner"><div id="GCmvudel-avatar" class="gc-avatar"></div><div class="gc-user">ZhaoCake</div></div><div class="gc-divider">/</div><div class="gc-repo">zhaocake.github.io</div></div><div class="github-logo"></div></div><div id="GCmvudel-description" class="gc-description">Waiting for api.github.com...</div><div class="gc-infobar"><div id="GCmvudel-stars" class="gc-stars">00K</div><div id="GCmvudel-forks" class="gc-forks">0K</div><div id="GCmvudel-license" class="gc-license">0K</div><span id="GCmvudel-language" class="gc-language">Waiting...</span></div><script id="GCmvudel-script" type="text/javascript" defer>
       fetch('https://api.github.com/repos/ZhaoCake/zhaocake.github.io', { referrerPolicy: "no-referrer" }).then(response => response.json()).then(data => {
-        document.getElementById('GC21b668-description').innerText = data.description?.replace(/:[a-zA-Z0-9_]+:/g, '') || "Description not set";
-        document.getElementById('GC21b668-language').innerText = data.language;
-        document.getElementById('GC21b668-forks').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.forks).replaceAll(" ", '');
-        document.getElementById('GC21b668-stars').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.stargazers_count).replaceAll(" ", '');
-        const avatarEl = document.getElementById('GC21b668-avatar');
+        document.getElementById('GCmvudel-description').innerText = data.description?.replace(/:[a-zA-Z0-9_]+:/g, '') || "Description not set";
+        document.getElementById('GCmvudel-language').innerText = data.language;
+        document.getElementById('GCmvudel-forks').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.forks).replaceAll(" ", '');
+        document.getElementById('GCmvudel-stars').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.stargazers_count).replaceAll(" ", '');
+        const avatarEl = document.getElementById('GCmvudel-avatar');
         avatarEl.style.backgroundImage = 'url(' + data.owner.avatar_url + ')';
         avatarEl.style.backgroundColor = 'transparent';
-        document.getElementById('GC21b668-license').innerText = data.license?.spdx_id || "no-license";
-        document.getElementById('GC21b668-card').classList.remove("fetch-waiting");
-        console.log("[GITHUB-CARD] Loaded card for ZhaoCake/zhaocake.github.io | GC21b668.")
+        document.getElementById('GCmvudel-license').innerText = data.license?.spdx_id || "no-license";
+        document.getElementById('GCmvudel-card').classList.remove("fetch-waiting");
+        console.log("[GITHUB-CARD] Loaded card for ZhaoCake/zhaocake.github.io | GCmvudel.")
       }).catch(err => {
-        const c = document.getElementById('GC21b668-card');
+        const c = document.getElementById('GCmvudel-card');
         c?.classList.add("fetch-error");
-        console.warn("[GITHUB-CARD] (Error) Loading card for ZhaoCake/zhaocake.github.io | GC21b668.")
+        console.warn("[GITHUB-CARD] (Error) Loading card for ZhaoCake/zhaocake.github.io | GCmvudel.")
       })
     </script></a></section>  </div> <script type="module">document.addEventListener("click",function(s){const t=s.target;if(t&&t.classList.contains("copy-btn")){const c=t.closest("pre")?.querySelector("code"),i=Array.from(c?.querySelectorAll(".code:not(summary *)")??[]).map(e=>e.textContent).map(e=>e===`
 `?"":e).join(`
