@@ -19,8 +19,8 @@ pnpm new-post <filename>
 ---
 title: 文章标题              # 必填
 published: 2024-01-20       # 必填，发布日期 YYYY-MM-DD
+image: "https://cnmiw.com/api.php?sort=CDNtop"  # 可选，封面图（默认用随机图 API）
 description: 摘要描述        # 可选，列表页展示
-image: /assets/xxx.png       # 可选，封面图（绝对路径指向 public/，或相对路径指向 post 同目录）
 tags: [标签1, 标签2]         # 可选
 category: 分类名             # 可选
 draft: false                # 可选，true 则不发布

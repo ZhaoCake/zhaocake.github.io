@@ -159,14 +159,14 @@ body {
     background-position: center;
 }
 :root {
-    --page-bg: rgba(245, 245, 245, 0.55) !important;
-    --card-bg: rgba(255, 255, 255, 0.72) !important;
+    --page-bg: rgba(245, 245, 245, 0.35) !important;
+    --card-bg: rgba(255, 255, 255, 0.55) !important;
 }
 .dark {
-    --page-bg: rgba(18, 18, 18, 0.55) !important;
-    --card-bg: rgba(30, 30, 30, 0.72) !important;
+    --page-bg: rgba(18, 18, 18, 0.35) !important;
+    --card-bg: rgba(30, 30, 30, 0.55) !important;
 }
 .card-base {
-    backdrop-filter: blur(10px) saturate(1.2);
-    -webkit-backdrop-filter: blur(10px) saturate(1.2);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
 }

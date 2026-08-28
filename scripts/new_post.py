@@ -40,6 +40,7 @@ def build_content(date: datetime.date, title: Optional[str]) -> str:
     return f"""---
 title: {title}
 published: {date.isoformat()}
+image: "https://cnmiw.com/api.php?sort=CDNtop"
 description: "TODO: 描述"
 tags: [TODO]
 category: "TODO"
