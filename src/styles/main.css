@@ -157,16 +157,17 @@ html {
 }
 body {
     background-color: transparent;
-    isolation: isolate;
 }
 body::before {
     content: "";
     position: fixed;
     inset: 0;
-    z-index: 0;
+    z-index: -1;
     background-image: url(/assets/kaguya.jpg);
     background-size: cover;
     background-position: center;
+    filter: blur(8px);
+    transform: scale(1.05);
     pointer-events: none;
 }
 :root {
@@ -176,10 +177,4 @@ body::before {
 .dark {
     --page-bg: rgba(18, 18, 18, 0.35) !important;
     --card-bg: rgba(30, 30, 30, 0.55) !important;
-}
-.card-base {
-    position: relative;
-    z-index: 1;
-    backdrop-filter: blur(20px) saturate(1.4);
-    -webkit-backdrop-filter: blur(20px) saturate(1.4);
 }
