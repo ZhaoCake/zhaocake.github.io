@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		{
-			src: "/assert/asuka.png",
+			src: "/assert/zhao.png",
 		},
 	],
 };
@@ -50,7 +50,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/assert/asuka.png",
+	avatar: "/assert/asuka.jpg",
 	name: "ZhaoCake",
 	bio: "Ciallo～(∠・ω< )⌒☆ 记录学习笔记与生活感悟",
 	links: [
