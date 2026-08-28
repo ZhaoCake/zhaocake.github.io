@@ -152,12 +152,6 @@
 }
 
 /* === 全屏背景 + 毛玻璃卡片 === */
-html {
-    background-color: var(--page-bg);
-}
-body {
-    background-color: transparent;
-}
 body::before {
     content: "";
     position: fixed;
@@ -166,6 +160,7 @@ body::before {
     background-image: url(/assets/kaguya.jpg);
     background-size: cover;
     background-position: center;
+    background-color: var(--page-bg);
     filter: blur(8px);
     transform: scale(1.05);
     pointer-events: none;
