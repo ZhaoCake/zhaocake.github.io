@@ -1,10 +1,8 @@
 # 关于我
 
-Ciallo～(∠・ω< )⌒☆
-
 我是 ZhaoCake，一名探索**计算系统如何构建**的学生——从编程语言、虚拟机，到硬件与形式化模型。
 
-📍 四川成都 · 信奉「I learn by building」·「A system is understood when you can build a smaller one.」
+「I learn by building」·「A system is understood when you can build a smaller one.」
 
 ## 🔭 当前探索
 
@@ -28,5 +26,7 @@ Ciallo～(∠・ω< )⌒☆
 ## 📌 代表仓库
 
 ::github{repo="ZhaoCake/systemc_simple_tutorial"}
+
+::github{repo="ZhaoCake/minilisp"}
 
 ::github{repo="ZhaoCake/learning_renode"}

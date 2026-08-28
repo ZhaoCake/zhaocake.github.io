@@ -12,13 +12,13 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Ciallo～(∠・ω< )⌒☆",
 	lang: "zh_CN",
 	themeColor: {
-		hue: 210,
+		hue: 250,
 		fixed: false,
 	},
 	banner: {
 		enable: true,
 		src: "assets/images/banner.jpg",
-		position: "center",
+		position: "top",
 		credit: {
 			enable: false,
 			text: "",
@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		{
-			src: "/assert/zhao.png",
+			src: "/assets/zhao.png",
 		},
 	],
 };
@@ -50,7 +50,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/assert/asuka.jpg",
+	avatar: "/assets/asuka.jpg",
 	name: "ZhaoCake",
 	bio: "Ciallo～(∠・ω< )⌒☆ 记录学习笔记与生活感悟",
 	links: [
@@ -68,11 +68,6 @@ export const profileConfig: ProfileConfig = {
 			name: "Zhihu",
 			icon: "fa6-brands:zhihu",
 			url: "https://www.zhihu.com/people/42-48-12-1",
-		},
-		{
-			name: "QQ",
-			icon: "fa6-brands:qq",
-			url: "tencent://message/?uin=2317634877&Site=&Menu=yes",
 		},
 	],
 };

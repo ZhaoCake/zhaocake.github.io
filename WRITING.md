@@ -20,7 +20,7 @@ pnpm new-post <filename>
 title: 文章标题              # 必填
 published: 2024-01-20       # 必填，发布日期 YYYY-MM-DD
 description: 摘要描述        # 可选，列表页展示
-image: /assert/xxx.png       # 可选，封面图（绝对路径指向 public/，或相对路径指向 post 同目录）
+image: /assets/xxx.png       # 可选，封面图（绝对路径指向 public/，或相对路径指向 post 同目录）
 tags: [标签1, 标签2]         # 可选
 category: 分类名             # 可选
 draft: false                # 可选，true 则不发布
@@ -102,7 +102,7 @@ $$
 
 ## 四、注意事项
 
-- **图片路径**：封面/正文图优先放 `src/assets/`（Astro 图片优化，build 时压缩）；`public/` 下的图用绝对路径引用（如 `/assert/asuka.png`）。
+- **图片路径**：封面/正文图优先放 `src/assets/`（Astro 图片优化，build 时压缩）；`public/` 下的图用绝对路径引用（如 `/assets/asuka.png`）。
 - **草稿**：`draft: true` 不发布，可用于暂存未完成文章。
 - **文件名**：用日期前缀 `YYYY-MM-DD-xxx.md` 便于排序。
 - **分类/标签**：`category` 单值字符串，`tags` 是字符串数组。
