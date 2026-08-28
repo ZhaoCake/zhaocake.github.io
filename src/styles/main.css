@@ -2,7 +2,7 @@
 
 @layer components {
     .card-base {
-        @apply rounded-[var(--radius-large)] overflow-hidden bg-[var(--card-bg)] transition;
+        @apply rounded-[var(--radius-large)] bg-[var(--card-bg)] transition;
     }
     h1, h2, h3, h4, h5, h6, p, a, span, li, ul, ol, blockquote, code, pre, table, th, td, strong {
         @apply transition;
@@ -157,10 +157,16 @@ html {
 }
 body {
     background-color: transparent;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
     background-image: url(/assets/kaguya.jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
+    pointer-events: none;
 }
 :root {
     --page-bg: rgba(245, 245, 245, 0.35) !important;
