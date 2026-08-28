@@ -975,7 +975,7 @@ AddNumbers:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;经过查找，这个bug在4版本的时候被修复了，所以就要升级版本。&lt;/p&gt;
 &lt;p&gt;ccache的文件比较单一，环境变量、软链接啥的都是已经配置好的，所以这次一切从简，直接替换文件即可。
-&lt;img src=&quot;/assert/f834349ae83f07e4a88231a9e303bd93.png&quot; alt=&quot;请添加图片描述&quot; /&gt;
+&lt;img src=&quot;/assets/f834349ae83f07e4a88231a9e303bd93.png&quot; alt=&quot;请添加图片描述&quot; /&gt;
 然后顺利开始编译。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在下载的文件中是可以找到manual的，它的ccache是放在local下的，和我不太一样。
@@ -1086,19 +1086,19 @@ channels:
 &lt;p&gt;最终选择snap方式安装，这种安装方式更加省心，安装和卸载都不容易伤到其他部分。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;snap install zotero-snap
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&quot;/assert/2864050b72b9d46a9b6be7971b8295c5.png&quot; alt=&quot;请添加图片描述&quot; /&gt;安装成功。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2864050b72b9d46a9b6be7971b8295c5.png&quot; alt=&quot;请添加图片描述&quot; /&gt;安装成功。&lt;/p&gt;
 &lt;h2&gt;zotero的简单使用&lt;/h2&gt;
 &lt;h3&gt;文献导入&lt;/h3&gt;
 &lt;p&gt;除了左上角标准的文献导入方式，也可以直接拖拽pdf格式文件导入，软件会自动搜索项目名称等信息。
-&lt;img src=&quot;/assert/f37d4e2ad8e0a6478fb7d403e7f9adf5.png&quot; alt=&quot;在这里插入图片描述&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/f37d4e2ad8e0a6478fb7d403e7f9adf5.png&quot; alt=&quot;在这里插入图片描述&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;中文翻译插件&lt;/h3&gt;
 &lt;h4&gt;下载并安装&lt;/h4&gt;
 &lt;p&gt;这才是我要装文献管理软件的主要原因啊！浏览器翻译插件似乎只对Html页面有效，对于PDF格式文件则不起作用，英语及格的我只能装翻译插件了。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://zotero.yuque.com/staff-gkhviy/pdf-trans/bwxwxh&quot;&gt;插件开发者的文档&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assert/7f6ffb4490859e874cc691a4a0c60b4f.png&quot; alt=&quot;在这里插入图片描述&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/7f6ffb4490859e874cc691a4a0c60b4f.png&quot; alt=&quot;在这里插入图片描述&quot; /&gt;
 注意作者的提醒嗷。另外，我按照上面snap安装方式安装的是zotero6的版本，所以下载插件时应当下载稳定版本而不是预发布版本。故下载1.0.23版本哦。&lt;/p&gt;
 &lt;h4&gt;使用体验&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assert/961aa0a197dbebe785734f77ec6c92f2.png&quot; alt=&quot;在这里插入图片描述&quot; /&gt;我的评价是可以！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/961aa0a197dbebe785734f77ec6c92f2.png&quot; alt=&quot;在这里插入图片描述&quot; /&gt;我的评价是可以！&lt;/p&gt;
 </content:encoded></item><item><title>误操作导致.zshrc文件清空的抢救措施||注意重定义操作符的用法||shell的配置文件坏掉</title><link>https://zhaocake.github.io/posts/2024-01-25/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2024-01-25/</guid><description>序言</description><pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;序言&lt;/h2&gt;
 &lt;p&gt;&amp;lt;mark&amp;gt;进来提醒第一件事：以后记得定时备份！定时备份！定时备份！&amp;lt;/mark&amp;gt;&lt;/p&gt;
 &lt;p&gt;因为一个误操作，我把自己的&lt;code&gt;.zshrc&lt;/code&gt;搞坏了。&lt;/p&gt;
