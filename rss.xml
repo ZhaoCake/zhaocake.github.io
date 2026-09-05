@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ZhaoCake&apos;s Blog</title><description>Ciallo～(∠・ω&lt; )⌒☆</description><link>https://zhaocake.github.io/</link><language>zh_CN</language><item><title>关于考研：当前阶段的一些学习方法沉淀与打气</title><link>https://zhaocake.github.io/posts/2026-09-03/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-03/</guid><description>目前九月份，对当前的学习方法与思考进行一些记录，并对接下来100多天的学习进行方法指引</description><pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;当前已经九月份，应该总结一下当前在考研方面的经验与教训，避免在接下来更关键的3个半月中出现重大错误。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ZhaoCake&apos;s Blog</title><description>Ciallo～(∠・ω&lt; )⌒☆</description><link>https://zhaocake.github.io/</link><language>zh_CN</language><item><title>关于考研（2）：如何使得自己行动</title><link>https://zhaocake.github.io/posts/2026-09-06/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-06/</guid><description>本文主要讨论如何使得自己行动，尤其是在考研学习中，如何通过Fogg行为模型来维护学习者的状态，从而提高学习效率。</description><pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;如何使得自己行动&lt;/h2&gt;
+&lt;p&gt;B=MAP福格行为模型是由斯坦福大学的BJ Fogg提出的行为模型，主要用于解释和预测人类行为。该模型认为，行为的发生需要三个关键因素同时存在：动机（Motivation）、能力（Ability）和提示（Prompt）。当这三个因素同时满足时，行为就会发生。&lt;/p&gt;
+&lt;p&gt;尽管在道理上已经有了诸多理解，但是学习时依然难免走神乃至不学习的情况发生。那么如何使得自己进行学习就是需要实践的问题。&lt;/p&gt;
+&lt;p&gt;我的看法是不将学习作为目的，而是将维护学习者状态作为目的。&lt;/p&gt;
+&lt;p&gt;维护学习者的状态，即是维护学习这一行动的发生条件并抑制学习被中断的因素。在这一点上，可以借助Fogg行为模型来实践。&lt;/p&gt;
+&lt;h2&gt;开始学习的环境&lt;/h2&gt;
+&lt;p&gt;学习的动机自然不必准备，是考研。实际上人想做很多事，但一个时刻只能表现出一个。虽然我此刻没有备考，但我考研的愿望自然是在心里的。这正是提示的作用，用于激发出考研的愿望，使其尝试发生。&lt;/p&gt;
+&lt;p&gt;第二是通过机制准备环境，这是能力的一部分，对于阻碍学习同样成立。如果我打算学习什么，应该先将书打开放在桌上并准备好草稿纸。&lt;/p&gt;
+&lt;p&gt;此外，排除干扰意味着应该把其他有动机、有能力的行为，破坏一些成立条件。如果动机无法消除，应该暂时消除能力，例如将手机锁起来。并拿到其他地方去。这中间有多个行为的转换。虽然每一步都有能力完成，但是并不直接，因此可能能够防止发生。&lt;/p&gt;
+&lt;h2&gt;光电效应的类比&lt;/h2&gt;
+&lt;p&gt;实际上这应该可以类比光电效应。我是指在强度达到一定程度，事件才会发生这一点。&lt;/p&gt;
+</content:encoded></item><item><title>关于考研：当前阶段的一些学习方法沉淀与打气</title><link>https://zhaocake.github.io/posts/2026-09-03/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-03/</guid><description>目前九月份，对当前的学习方法与思考进行一些记录，并对接下来100多天的学习进行方法指引</description><pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;当前已经九月份，应该总结一下当前在考研方面的经验与教训，避免在接下来更关键的3个半月中出现重大错误。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;少即是多&lt;/h2&gt;
 &lt;p&gt;最为重要的是少就是多。有多个学习资源来源不如把一个好的资源吃透，我的决定是吃透880，不过目前显然还没有吃透，准确来说，一多半还没有做；再准确来说，做了四分之一了。这并不夸张。我认为这是合理的，虽然落后于大部分的
@@ -560,12 +571,6 @@ make
 &lt;/ul&gt;
 &lt;h2&gt;许可证&lt;/h2&gt;
 &lt;p&gt;本项目采用 GPL-3.0 许可证。详见 &lt;a href=&quot;LICENSE&quot;&gt;LICENSE&lt;/a&gt; 文件。&lt;/p&gt;
-</content:encoded></item><item><title>如何合理利用ai辅助项目</title><link>https://zhaocake.github.io/posts/2025-1-7-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-2/</guid><description>作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。&lt;/p&gt;
-&lt;p&gt;实际上经过尝试，由于现在的任何一个模型都还有着严重的上下文限制，当项目的代码量超过一定长度的时候，无论是不是合理的prompt，都很难得到切实解决我面临的问题的建议，实际上还是需要靠自身的知识和经验处理问题&lt;/p&gt;
-&lt;p&gt;对于这种情况，我考虑对单个项目进行模块和子模块的划分是很好的方案，这不但有助于ai接受范围限制内的上下文以更好地辅助变成，同时也对开发者的模块设计方案提出了比较高的要求。这样很好。我应当对此进行尝试。&lt;/p&gt;
-&lt;p&gt;实际上我一直想要一个能够以图数据库的结构来分析并存储一整个代码库的代码，然后以RAG技术进行问答的代码分析工具。实际上这种东西应该说由source insight和understand这种在静态分析上有很多经验的软件的团队来做是最棒的，不过目前为止还没有看到这样的软件。&lt;/p&gt;
-&lt;p&gt;不过暂时没有做这个的打算，一方面静态分析离自己的目标方向有点太远了，另一方面我也并不是闲得没有事情做。&lt;/p&gt;
-&lt;p&gt;今天刚刚回家，可以说最近几天都在摆烂。这正如我曾经说过的，放假前几天是要耍的，因为就要放假了，放假后几天是不学的，因为才刚刚放假。这样不是不行，也不是不好，就是不太妙。我考虑应该在上午读书，下午写代码。&lt;/p&gt;
 </content:encoded></item><item><title>一个纯numpy实现的LeNet训练仓库（1）</title><link>https://zhaocake.github.io/posts/2025-1-7-3/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-3/</guid><description>https://github.com/ZhaoCake/cakeinferfnumpy</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::note[开源地址]&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/ZhaoCake/cakeinfer_fnumpy&quot;&gt;https://github.com/ZhaoCake/cakeinfer_fnumpy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;:::
@@ -846,6 +851,12 @@ file.read(reinterpret_cast&amp;lt;char*&amp;gt;(&amp;amp;conv1), sizeof(ConvWeig
 &lt;/ol&gt;
 &lt;h2&gt;许可证&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;./LICENSE&quot;&gt;LICENSE&lt;/a&gt;&lt;/p&gt;
+</content:encoded></item><item><title>如何合理利用ai辅助项目</title><link>https://zhaocake.github.io/posts/2025-1-7-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-2/</guid><description>作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。&lt;/p&gt;
+&lt;p&gt;实际上经过尝试，由于现在的任何一个模型都还有着严重的上下文限制，当项目的代码量超过一定长度的时候，无论是不是合理的prompt，都很难得到切实解决我面临的问题的建议，实际上还是需要靠自身的知识和经验处理问题&lt;/p&gt;
+&lt;p&gt;对于这种情况，我考虑对单个项目进行模块和子模块的划分是很好的方案，这不但有助于ai接受范围限制内的上下文以更好地辅助变成，同时也对开发者的模块设计方案提出了比较高的要求。这样很好。我应当对此进行尝试。&lt;/p&gt;
+&lt;p&gt;实际上我一直想要一个能够以图数据库的结构来分析并存储一整个代码库的代码，然后以RAG技术进行问答的代码分析工具。实际上这种东西应该说由source insight和understand这种在静态分析上有很多经验的软件的团队来做是最棒的，不过目前为止还没有看到这样的软件。&lt;/p&gt;
+&lt;p&gt;不过暂时没有做这个的打算，一方面静态分析离自己的目标方向有点太远了，另一方面我也并不是闲得没有事情做。&lt;/p&gt;
+&lt;p&gt;今天刚刚回家，可以说最近几天都在摆烂。这正如我曾经说过的，放假前几天是要耍的，因为就要放假了，放假后几天是不学的，因为才刚刚放假。这样不是不行，也不是不好，就是不太妙。我考虑应该在上午读书，下午写代码。&lt;/p&gt;
 </content:encoded></item><item><title>解决NeoVim中写C/C++代码无法解析不同路径头文件的问题</title><link>https://zhaocake.github.io/posts/2024-11-12-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2024-11-12-2/</guid><description>本文假定已经通过mason安装了clangd，并且已经能够解析头文件，问题是对于其他非常规路径下的头文件无法找到。</description><pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;本文假定已经通过&lt;code&gt;mason&lt;/code&gt;安装了&lt;code&gt;clangd&lt;/code&gt;，并且已经能够解析头文件，问题是对于其他非常规路径下的头文件无法找到。&lt;/p&gt;
 &lt;p&gt;实际上这不是一个NeoVim的问题，不应该通过改NeoVim的配置来解决这个问题，而是应该通过&lt;code&gt;clangd&lt;/code&gt;的配置来解决。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://clangd.llvm.org/config&quot;&gt;clangd的Configuration&lt;/a&gt; 此为官方文档。&lt;/p&gt;
