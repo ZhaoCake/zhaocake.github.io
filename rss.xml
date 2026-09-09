@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ZhaoCake&apos;s Blog</title><description>Ciallo～(∠・ω&lt; )⌒☆</description><link>https://zhaocake.github.io/</link><language>zh_CN</language><item><title>关于考研（2）：如何使得自己行动</title><link>https://zhaocake.github.io/posts/2026-09-06/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-06/</guid><description>本文主要讨论如何使得自己行动，尤其是在考研学习中，如何通过Fogg行为模型来维护学习者的状态，从而提高学习效率。</description><pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;如何使得自己行动&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ZhaoCake&apos;s Blog</title><description>Ciallo～(∠・ω&lt; )⌒☆</description><link>https://zhaocake.github.io/</link><language>zh_CN</language><item><title>AI for Hardware困境分析记录</title><link>https://zhaocake.github.io/posts/2026-09-09/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-09/</guid><description>关于AI在硬件设计产业化方面不突出的原因以及为此应该做什么改进的记录</description><pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;“感觉Verilog也比较简单吧，但是繁琐，像是该丢给AI干的活”&lt;/p&gt;
+&lt;p&gt;但是为什么在产业当中AI生成Verilog代码的自动化程度依然不足呢？&lt;/p&gt;
+&lt;p&gt;AI在硬件设计中实际上已经有不少应用，已经有很多工程师能够使用AI辅助自己的硬件设计。但是AI化的程度与软件比起来是低的，
+根本是停留在两三年前。究其原因不是AI的问题，而是硬件产业的问题。&lt;/p&gt;
+&lt;h2&gt;原因&lt;/h2&gt;
+&lt;p&gt;比较容易想到的原因，一方面是语料太少，尤其是这方面私有程度很高，优秀的私有设计并不开放；并且大量私有设计也附带了大量私有工具链。
+比如几家典型处理器巨头的一些工具链产品都是从自家研发体系中催生出来的。&lt;/p&gt;
+&lt;p&gt;另一方面，也是更为重要的方面，硬件设计方面可连续循环调用读取的反应太少了。AI写出代码后无法有效地用工具检查，检查结果也未必会直接指导
+AI如何修改代码。通常只有一些基本的verilog语法检查工具使用，这对于实际优化设计并没有什么帮助；
+相对有帮助一些的是sta之类的，但是过程也是完全的黑盒，AI只拿得到一个结果、路径，但是拿不到具体代码应该如何修改。
+更进一步的，综合过程，但是这里也和sta一样，不会直接指导AI设计，也就是说对于AI优化设计，没有什么真正有效的反馈。&lt;/p&gt;
+&lt;h2&gt;何至于斯&lt;/h2&gt;
+&lt;p&gt;这不是要让AI用才有的问题，对于没有AI的时候，对于人也是一样的。硬件设计与软件设计在模式上最大的差别之一，就是硬件设计的
+规则或者说最佳实践，基本上是以知识的形式存在，更形象的说，“口口相传”的形式。
+与软件对比，软件方面则是用丰富的语法来约束设计，用语法的限制来使得人遵从实践。拿编译器公认牛牛牛的rust来说。不但有详细的报错和警告，甚至
+还有help、hints。而verilog有什么？能指望AI用这一套烂玩意儿生成大项目吗？&lt;/p&gt;
+&lt;p&gt;说白了，在当前给AI提供的工具下，根本无法与当前Agent的发展良好接轨，AI写出的硬件项目跟AI做出的docx一样烂甚至还要更烂（后者至少约束起来更容易也就更容易产出相对可用的玩意儿）。
+根本就是原始的chat在Agent时代搞出了不用复制粘贴的快捷方式罢了。&lt;/p&gt;
+&lt;p&gt;根本来说是反馈信号太稀疏。你能在没有cargo test情况下写出好rust吗？能在没有gtest的情况下写出好cpp吗？&lt;/p&gt;
+&lt;p&gt;现在还有一些好的尝试，比如UCAgent，这能够改善问题到什么程度呢？我并不持根本解决的态度。&lt;/p&gt;
+&lt;p&gt;就得走编译的方法。&lt;/p&gt;
+&lt;p&gt;实话说，除了CIRCT之外，还有真正的硬件编译器吗？（HLS的就不说了&lt;/p&gt;
+&lt;p&gt;Verilator、VCS这类的，只是要仿真，不是直接为了优化而来的；综合器则太底层了，指望它产生什么信息帮助AI判断呢？&lt;/p&gt;
+&lt;p&gt;只有CIRCT目前把硬件设计当成可编程语义对象来尝试，它可能具备这样的潜力，真正将硬件设计软件方法化。&lt;/p&gt;
+&lt;p&gt;关键在于建设一种基础设施，将硬件设计规则转化为语法的基础设施，并且要有足够的反馈。&lt;/p&gt;
+&lt;p&gt;说到规则，就不得不提BSV，这可太他妈规则了，可是不够优化。&lt;/p&gt;
+&lt;p&gt;唔，怎么又走回bsv，我到底在写什么玩意儿。&lt;/p&gt;
+&lt;p&gt;我知道了，如果我想要的是规则化地描述，那么我实际上要的是一种所谓的逻辑综合，似乎是这样的东西。&lt;/p&gt;
+&lt;p&gt;到这里果然超出能力范围了。说到底我没什么能力，由此导致产生的想法也大部分不能实现。甚至因为想法不能实现而怀疑想法是否正确，这是错误的循环。&lt;/p&gt;
+&lt;h2&gt;回归问题&lt;/h2&gt;
+&lt;p&gt;那么这就是说，这归根结底是并发语义规则调度的问题。&lt;/p&gt;
+&lt;p&gt;果然又回到了这里。啊啊。你妈的为什么，虽然可以理解就是了。&lt;/p&gt;
+&lt;p&gt;那么就到此为止吧。今后读研如果有机会的话，会继续的。&lt;/p&gt;
+</content:encoded></item><item><title>关于考研（2）：如何使得自己行动</title><link>https://zhaocake.github.io/posts/2026-09-06/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-06/</guid><description>本文主要讨论如何使得自己行动，尤其是在考研学习中，如何通过Fogg行为模型来维护学习者的状态，从而提高学习效率。</description><pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;如何使得自己行动&lt;/h2&gt;
 &lt;p&gt;B=MAP福格行为模型是由斯坦福大学的BJ Fogg提出的行为模型，主要用于解释和预测人类行为。该模型认为，行为的发生需要三个关键因素同时存在：动机（Motivation）、能力（Ability）和提示（Prompt）。当这三个因素同时满足时，行为就会发生。&lt;/p&gt;
 &lt;p&gt;尽管在道理上已经有了诸多理解，但是学习时依然难免走神乃至不学习的情况发生。那么如何使得自己进行学习就是需要实践的问题。&lt;/p&gt;
 &lt;p&gt;我的看法是不将学习作为目的，而是将维护学习者状态作为目的。&lt;/p&gt;
@@ -571,6 +604,12 @@ make
 &lt;/ul&gt;
 &lt;h2&gt;许可证&lt;/h2&gt;
 &lt;p&gt;本项目采用 GPL-3.0 许可证。详见 &lt;a href=&quot;LICENSE&quot;&gt;LICENSE&lt;/a&gt; 文件。&lt;/p&gt;
+</content:encoded></item><item><title>如何合理利用ai辅助项目</title><link>https://zhaocake.github.io/posts/2025-1-7-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-2/</guid><description>作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。&lt;/p&gt;
+&lt;p&gt;实际上经过尝试，由于现在的任何一个模型都还有着严重的上下文限制，当项目的代码量超过一定长度的时候，无论是不是合理的prompt，都很难得到切实解决我面临的问题的建议，实际上还是需要靠自身的知识和经验处理问题&lt;/p&gt;
+&lt;p&gt;对于这种情况，我考虑对单个项目进行模块和子模块的划分是很好的方案，这不但有助于ai接受范围限制内的上下文以更好地辅助变成，同时也对开发者的模块设计方案提出了比较高的要求。这样很好。我应当对此进行尝试。&lt;/p&gt;
+&lt;p&gt;实际上我一直想要一个能够以图数据库的结构来分析并存储一整个代码库的代码，然后以RAG技术进行问答的代码分析工具。实际上这种东西应该说由source insight和understand这种在静态分析上有很多经验的软件的团队来做是最棒的，不过目前为止还没有看到这样的软件。&lt;/p&gt;
+&lt;p&gt;不过暂时没有做这个的打算，一方面静态分析离自己的目标方向有点太远了，另一方面我也并不是闲得没有事情做。&lt;/p&gt;
+&lt;p&gt;今天刚刚回家，可以说最近几天都在摆烂。这正如我曾经说过的，放假前几天是要耍的，因为就要放假了，放假后几天是不学的，因为才刚刚放假。这样不是不行，也不是不好，就是不太妙。我考虑应该在上午读书，下午写代码。&lt;/p&gt;
 </content:encoded></item><item><title>一个纯numpy实现的LeNet训练仓库（1）</title><link>https://zhaocake.github.io/posts/2025-1-7-3/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-3/</guid><description>https://github.com/ZhaoCake/cakeinferfnumpy</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::note[开源地址]&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/ZhaoCake/cakeinfer_fnumpy&quot;&gt;https://github.com/ZhaoCake/cakeinfer_fnumpy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;:::
@@ -851,12 +890,6 @@ file.read(reinterpret_cast&amp;lt;char*&amp;gt;(&amp;amp;conv1), sizeof(ConvWeig
 &lt;/ol&gt;
 &lt;h2&gt;许可证&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;./LICENSE&quot;&gt;LICENSE&lt;/a&gt;&lt;/p&gt;
-</content:encoded></item><item><title>如何合理利用ai辅助项目</title><link>https://zhaocake.github.io/posts/2025-1-7-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-2/</guid><description>作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。&lt;/p&gt;
-&lt;p&gt;实际上经过尝试，由于现在的任何一个模型都还有着严重的上下文限制，当项目的代码量超过一定长度的时候，无论是不是合理的prompt，都很难得到切实解决我面临的问题的建议，实际上还是需要靠自身的知识和经验处理问题&lt;/p&gt;
-&lt;p&gt;对于这种情况，我考虑对单个项目进行模块和子模块的划分是很好的方案，这不但有助于ai接受范围限制内的上下文以更好地辅助变成，同时也对开发者的模块设计方案提出了比较高的要求。这样很好。我应当对此进行尝试。&lt;/p&gt;
-&lt;p&gt;实际上我一直想要一个能够以图数据库的结构来分析并存储一整个代码库的代码，然后以RAG技术进行问答的代码分析工具。实际上这种东西应该说由source insight和understand这种在静态分析上有很多经验的软件的团队来做是最棒的，不过目前为止还没有看到这样的软件。&lt;/p&gt;
-&lt;p&gt;不过暂时没有做这个的打算，一方面静态分析离自己的目标方向有点太远了，另一方面我也并不是闲得没有事情做。&lt;/p&gt;
-&lt;p&gt;今天刚刚回家，可以说最近几天都在摆烂。这正如我曾经说过的，放假前几天是要耍的，因为就要放假了，放假后几天是不学的，因为才刚刚放假。这样不是不行，也不是不好，就是不太妙。我考虑应该在上午读书，下午写代码。&lt;/p&gt;
 </content:encoded></item><item><title>解决NeoVim中写C/C++代码无法解析不同路径头文件的问题</title><link>https://zhaocake.github.io/posts/2024-11-12-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2024-11-12-2/</guid><description>本文假定已经通过mason安装了clangd，并且已经能够解析头文件，问题是对于其他非常规路径下的头文件无法找到。</description><pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;本文假定已经通过&lt;code&gt;mason&lt;/code&gt;安装了&lt;code&gt;clangd&lt;/code&gt;，并且已经能够解析头文件，问题是对于其他非常规路径下的头文件无法找到。&lt;/p&gt;
 &lt;p&gt;实际上这不是一个NeoVim的问题，不应该通过改NeoVim的配置来解决这个问题，而是应该通过&lt;code&gt;clangd&lt;/code&gt;的配置来解决。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://clangd.llvm.org/config&quot;&gt;clangd的Configuration&lt;/a&gt; 此为官方文档。&lt;/p&gt;
