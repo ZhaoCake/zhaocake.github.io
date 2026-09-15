@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ZhaoCake&apos;s Blog</title><description>Ciallo～(∠・ω&lt; )⌒☆</description><link>https://zhaocake.github.io/</link><language>zh_CN</language><item><title>关于考研(3)：数学学习与应用的模式，接下来的发力方针</title><link>https://zhaocake.github.io/posts/2026-09-11/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-11/</guid><description>叙述当前对于数学学习与应用的认识，并据此归类当前薄弱环节，以求突破。</description><pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;知识的学习与使用以模式匹配为核心&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ZhaoCake&apos;s Blog</title><description>Ciallo～(∠・ω&lt; )⌒☆</description><link>https://zhaocake.github.io/</link><language>zh_CN</language><item><title>关于考研（4）：分析各知识特点与学习方法</title><link>https://zhaocake.github.io/posts/2026-09-15/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-15/</guid><description>我可以明确地说，对于概念模式强相关、概念模式密集的章节，与积分这种计算模式密集的章节的学习是完全不同的。</description><pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;之前我说大观好，大观好就好在能够密集强化模式的形成。&lt;/p&gt;
+&lt;p&gt;但是我们可以注意到，并且这是广泛出现的：积分大观明显比其他大观比如线代大观上一个档次。为什么呢？&lt;/p&gt;
+&lt;p&gt;因为积分大观的概念模式是少的，而计算模式占大部分。只需要很少量的概念模式就可以走通，因此很容易产生共鸣。
+但对于线性代数来说，做不来题最主要的原因恰恰是对概念的理解不够，无法进行有效的条件转换，因此如果本身的概念模式就掌握不好
+却去看线性代数大观，当然是吃力的。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;对于线代这种知识密集型，依然是以自己做题为主比较好。这样才能找到到底是哪个条件转化失败，哪个条件转化没想到或者想到了但记不清楚。
+对于计算模式来说，主要问题是没见过所以不知道，一旦知道方向就可以自己推导；对于概念模式来说，恰恰是要求熟练度的。即使可以从
+基本概念推导出来，也并不属于做题步骤（这与积分计算的推导是极大差别），是无效推导。因此要求抓准问题所在。&lt;/p&gt;
+&lt;p&gt;在这种情况下依然选择刷880吧。要是大观严选题出来了我就做那个了。然而并没有出来。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;顺便再说一下英语。昨天开真题。完形填空太看实际语义的掌握了。纯速成的词汇帮助有限。这是意料之中的。所以还是以阅读为重。完形填空最后梳理真题出现过的词义记一记好了。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;顺便再说一下408。最近都没怎么碰408。这不好。不过还是先把408真题选择题刷完吧。&lt;/p&gt;
+</content:encoded></item><item><title>关于考研(3)：数学学习与应用的模式，接下来的发力方针</title><link>https://zhaocake.github.io/posts/2026-09-11/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2026-09-11/</guid><description>叙述当前对于数学学习与应用的认识，并据此归类当前薄弱环节，以求突破。</description><pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;知识的学习与使用以模式匹配为核心&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;接下来的内容可能是纯粹的认知科学民科，因为大部分是基于我自身实践总结出的勉强自圆其说的玩意儿，因此我也基本只用于引导我个人的学习实践。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -641,12 +655,6 @@ make
 &lt;/ul&gt;
 &lt;h2&gt;许可证&lt;/h2&gt;
 &lt;p&gt;本项目采用 GPL-3.0 许可证。详见 &lt;a href=&quot;LICENSE&quot;&gt;LICENSE&lt;/a&gt; 文件。&lt;/p&gt;
-</content:encoded></item><item><title>如何合理利用ai辅助项目</title><link>https://zhaocake.github.io/posts/2025-1-7-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-2/</guid><description>作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。&lt;/p&gt;
-&lt;p&gt;实际上经过尝试，由于现在的任何一个模型都还有着严重的上下文限制，当项目的代码量超过一定长度的时候，无论是不是合理的prompt，都很难得到切实解决我面临的问题的建议，实际上还是需要靠自身的知识和经验处理问题&lt;/p&gt;
-&lt;p&gt;对于这种情况，我考虑对单个项目进行模块和子模块的划分是很好的方案，这不但有助于ai接受范围限制内的上下文以更好地辅助变成，同时也对开发者的模块设计方案提出了比较高的要求。这样很好。我应当对此进行尝试。&lt;/p&gt;
-&lt;p&gt;实际上我一直想要一个能够以图数据库的结构来分析并存储一整个代码库的代码，然后以RAG技术进行问答的代码分析工具。实际上这种东西应该说由source insight和understand这种在静态分析上有很多经验的软件的团队来做是最棒的，不过目前为止还没有看到这样的软件。&lt;/p&gt;
-&lt;p&gt;不过暂时没有做这个的打算，一方面静态分析离自己的目标方向有点太远了，另一方面我也并不是闲得没有事情做。&lt;/p&gt;
-&lt;p&gt;今天刚刚回家，可以说最近几天都在摆烂。这正如我曾经说过的，放假前几天是要耍的，因为就要放假了，放假后几天是不学的，因为才刚刚放假。这样不是不行，也不是不好，就是不太妙。我考虑应该在上午读书，下午写代码。&lt;/p&gt;
 </content:encoded></item><item><title>一个纯numpy实现的LeNet训练仓库（1）</title><link>https://zhaocake.github.io/posts/2025-1-7-3/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-3/</guid><description>https://github.com/ZhaoCake/cakeinferfnumpy</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::note[开源地址]&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/ZhaoCake/cakeinfer_fnumpy&quot;&gt;https://github.com/ZhaoCake/cakeinfer_fnumpy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;:::
@@ -927,6 +935,12 @@ file.read(reinterpret_cast&amp;lt;char*&amp;gt;(&amp;amp;conv1), sizeof(ConvWeig
 &lt;/ol&gt;
 &lt;h2&gt;许可证&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;./LICENSE&quot;&gt;LICENSE&lt;/a&gt;&lt;/p&gt;
+</content:encoded></item><item><title>如何合理利用ai辅助项目</title><link>https://zhaocake.github.io/posts/2025-1-7-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2025-1-7-2/</guid><description>作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;作为个人开发者，不得不说人工智能极大地帮助了我推进项目的进度，大量的业务逻辑都可以使用生成式人工智能来完成。但与此同时自然也会对自己的能力是否得到提升感到怀疑。&lt;/p&gt;
+&lt;p&gt;实际上经过尝试，由于现在的任何一个模型都还有着严重的上下文限制，当项目的代码量超过一定长度的时候，无论是不是合理的prompt，都很难得到切实解决我面临的问题的建议，实际上还是需要靠自身的知识和经验处理问题&lt;/p&gt;
+&lt;p&gt;对于这种情况，我考虑对单个项目进行模块和子模块的划分是很好的方案，这不但有助于ai接受范围限制内的上下文以更好地辅助变成，同时也对开发者的模块设计方案提出了比较高的要求。这样很好。我应当对此进行尝试。&lt;/p&gt;
+&lt;p&gt;实际上我一直想要一个能够以图数据库的结构来分析并存储一整个代码库的代码，然后以RAG技术进行问答的代码分析工具。实际上这种东西应该说由source insight和understand这种在静态分析上有很多经验的软件的团队来做是最棒的，不过目前为止还没有看到这样的软件。&lt;/p&gt;
+&lt;p&gt;不过暂时没有做这个的打算，一方面静态分析离自己的目标方向有点太远了，另一方面我也并不是闲得没有事情做。&lt;/p&gt;
+&lt;p&gt;今天刚刚回家，可以说最近几天都在摆烂。这正如我曾经说过的，放假前几天是要耍的，因为就要放假了，放假后几天是不学的，因为才刚刚放假。这样不是不行，也不是不好，就是不太妙。我考虑应该在上午读书，下午写代码。&lt;/p&gt;
 </content:encoded></item><item><title>解决NeoVim中写C/C++代码无法解析不同路径头文件的问题</title><link>https://zhaocake.github.io/posts/2024-11-12-2/</link><guid isPermaLink="true">https://zhaocake.github.io/posts/2024-11-12-2/</guid><description>本文假定已经通过mason安装了clangd，并且已经能够解析头文件，问题是对于其他非常规路径下的头文件无法找到。</description><pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;本文假定已经通过&lt;code&gt;mason&lt;/code&gt;安装了&lt;code&gt;clangd&lt;/code&gt;，并且已经能够解析头文件，问题是对于其他非常规路径下的头文件无法找到。&lt;/p&gt;
 &lt;p&gt;实际上这不是一个NeoVim的问题，不应该通过改NeoVim的配置来解决这个问题，而是应该通过&lt;code&gt;clangd&lt;/code&gt;的配置来解决。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://clangd.llvm.org/config&quot;&gt;clangd的Configuration&lt;/a&gt; 此为官方文档。&lt;/p&gt;
